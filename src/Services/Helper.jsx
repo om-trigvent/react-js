@@ -3,6 +3,8 @@ import { getToken } from "../Auth/Authdetails";
 
 export const BASE_URL ="https://reqres.in/api/";
 
+// this global helper function
+
 export const myAxios = axios.create({
     baseURL: BASE_URL,
   });
